@@ -1,58 +1,100 @@
 *{
     padding: 0px;
     margin: 0px;
-}
-
-header{
+  }
+  header{
     background-color: beige;
     width: 100%;
     height: 20vh;
-}
-
-section{
+  }
+  section{
     padding: 10px;
-}
-
-.about{
+  }
+  
+  .Home{
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    display: block;
+    width: 100%;
+    height: 80vh;
+  }
+  .Home button{
+  border: none;
+  width: 150px;
+  height: 40px;
+  margin: 10px;
+  }
+  .Home button a{
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  .Home h1{
+    padding-top: 50px;
+    font-size: 50px;
+  }
+  .Home p{
+    color: rgb(71, 70, 70);
+    padding-top: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .Home button{
+    margin-top: 15px;
+  }
+  .Home button:hover{
+    background-color: rgba(95, 158, 160, 0.515);
+    width: 170px;
+  }
+  .Home #memos{
+    font-size: 25px;
+  }
+  .emoji
+  {
+    font-size: 100px;
+    width: 50px;
+  }
+  
+  
+  .about{
     background-color: beige;
     width: 100%;
     height: 60vh;
-}
-
-.services{
+  }
+  .Services{
     background-color: rgb(220, 226, 245);
     width: 100%;
     height: 60vh;
-}
-.Testimonial{
+  }
+  .Testimonial{
     background-color: rgb(245, 220, 231);
     width: 100%;
     height: 60vh;
-}
-footer{
-    background-color: black;
-}
-/*Designing the contents*/
-header div{
+  }
+  footer{
+  background-color: black;
+  }
+  
+  /*Designing the contents*/
+  header div{
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 10px;
-}
-header div nav a{
+  }
+  header div nav a{
     list-style: none;
     text-decoration: none;
     color: black;
     padding: 7px;
-}
-header div nav a:hover{
+  }
+  header div nav a:hover{
     text-decoration: underline;
     font-size: 20px;
-    color: rgb(0, 0, 0.63);
-}
-header div button{
+    color: rgba(0, 0, 0, 0.63);
+  }
+  header div button{
     background-color: purple;
     border: none;
     padding: 7px;
-    color:white;
-}
+    color: white;
+  }
